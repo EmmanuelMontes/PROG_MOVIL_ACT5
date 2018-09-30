@@ -1,0 +1,63 @@
+"main@5284" prio=5 tid=0x2 nid=NA runnable
+  java.lang.Thread.State: RUNNABLE
+	  at dalvik.system.DexFile.openDexFileNative(DexFile.java:-1)
+	  at dalvik.system.DexFile.openDexFile(DexFile.java:353)
+	  at dalvik.system.DexFile.<init>(DexFile.java:100)
+	  at dalvik.system.DexFile.<init>(DexFile.java:74)
+	  at dalvik.system.DexPathList.loadDexFile(DexPathList.java:374)
+	  at dalvik.system.DexPathList.makeDexElements(DexPathList.java:337)
+	  at dalvik.system.DexPathList.<init>(DexPathList.java:157)
+	  at dalvik.system.BaseDexClassLoader.<init>(BaseDexClassLoader.java:65)
+	  at dalvik.system.PathClassLoader.<init>(PathClassLoader.java:64)
+	  at com.android.internal.os.ClassLoaderFactory.createClassLoader(ClassLoaderFactory.java:73)
+	  at com.android.internal.os.ClassLoaderFactory.createClassLoader(ClassLoaderFactory.java:88)
+	  at android.app.ApplicationLoaders.getClassLoader(ApplicationLoaders.java:69)
+	  - locked <0x14ba> (a android.util.ArrayMap)
+	  at android.app.ApplicationLoaders.getClassLoader(ApplicationLoaders.java:35)
+	  at android.app.LoadedApk.createOrUpdateClassLoaderLocked(LoadedApk.java:695)
+	  at android.app.LoadedApk.getClassLoader(LoadedApk.java:729)
+	  - locked <0x14ab> (a android.app.LoadedApk)
+	  at android.app.LoadedApk.getResources(LoadedApk.java:956)
+	  at android.app.ContextImpl.createAppContext(ContextImpl.java:2282)
+	  at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5714)
+	  at android.app.ActivityThread.-wrap1(ActivityThread.java:-1)
+	  at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1680)
+	  at android.os.Handler.dispatchMessage(Handler.java:106)
+	  at android.os.Looper.loop(Looper.java:171)
+	  at android.app.ActivityThread.main(ActivityThread.java:6633)
+	  at java.lang.reflect.Method.invoke(Method.java:-1)
+	  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:547)
+	  at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:823)
+
+"Jit thread pool worker thread 0@5298" daemon prio=5 tid=0x944 nid=NA runnable
+  java.lang.Thread.State: RUNNABLE
+	 Incompatible thread state: thread not suspended
+
+"Signal Catcher@5299" daemon prio=5 tid=0x945 nid=NA waiting
+  java.lang.Thread.State: WAITING
+	 Incompatible thread state: thread not suspended
+
+"HeapTaskDaemon@5300" daemon prio=5 tid=0x94a nid=NA waiting for monitor entry
+  java.lang.Thread.State: BLOCKED
+	 Incompatible thread state: thread not suspended
+
+"FinalizerWatchdogDaemon@5301" daemon prio=5 tid=0x949 nid=NA waiting
+  java.lang.Thread.State: WAITING
+	 Incompatible thread state: thread not suspended
+
+"ReferenceQueueDaemon@5302" daemon prio=5 tid=0x947 nid=NA waiting
+  java.lang.Thread.State: WAITING
+	 Incompatible thread state: thread not suspended
+
+"FinalizerDaemon@5303" daemon prio=5 tid=0x948 nid=NA waiting
+  java.lang.Thread.State: WAITING
+	 Incompatible thread state: thread not suspended
+
+"Binder:28288_1@5304" prio=5 tid=0x94b nid=NA runnable
+  java.lang.Thread.State: RUNNABLE
+	 Incompatible thread state: thread not suspended
+
+"Binder:28288_2@5305" prio=5 tid=0x94c nid=NA runnable
+  java.lang.Thread.State: RUNNABLE
+	 Incompatible thread state: thread not suspended
+
